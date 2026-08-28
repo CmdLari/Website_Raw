@@ -8,6 +8,7 @@ import Footer from "./components/Footer";
 import Home from "./components/Home";
 import About from "./components/About";
 import Contact from "./components/Contact";
+import Imprint from "./components/Imprint";
 
 import OutofWater from "./components/games/OutofWater";
 import BanishingYou from "./components/games/BanishingYou";
@@ -142,6 +143,9 @@ function App() {
 
                 case "contact":
                     return <Contact />;
+
+                case "imprint":
+                    return <Imprint />;
 
                 default:
                     return <About />;

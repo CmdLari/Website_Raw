@@ -54,6 +54,11 @@ const about = [
         id: "contact",
         label: "Contact",
         url: "/src/assets/gui/contact.png"
+    },
+    {
+        id: "imprint",
+        label: "Imprint",
+        url: "/src/assets/gui/imprint.png"
     }
 ];
 
